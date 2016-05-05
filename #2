@@ -1,0 +1,12 @@
+public OtherClass(int year, String make, String model, String color, String name, int gears,
+			int cycle, int currentGear, int distance){
+		 this.year = year;
+		 this.make = make;
+		 this.model = model;
+		 this.color = color;
+		 this.name = name;
+		 this.gears = gears;
+		 this.cycle = cycle;
+		 this.currentGear = currentGear;
+		 this.speed = currentGear * 10;
+		 this.distance = ((cycle-gears)*10)/60;
