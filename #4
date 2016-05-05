@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		int dice;
+		Scanner input = new Scanner(System.in);
+		OtherClass user1 = new OtherClass(2);
+		System.out.println("How many dice do you want to roll?");
+		dice = input.nextInt();
+		user1.setDice(dice);
+		
+		
+		
+		
+		
+		
+		OtherClass truck = new OtherClass(2000, "Chevy", "Silverado","Black","Betsy", 3, 10, 1);
+		OtherClass van = new OtherClass(2016, "Nissan", "Quest", "White", "Snow", 4, 10, 1);
+		OtherClass sportsCar = new OtherClass(1967, "Chevy", "Camaro", "Metallic Blue", "Dodger", 6,10,1);
+		truck.showMessage();
+		van.showMessage();
+		sportsCar.showMessage();
+		
+		
+		
+	}
+
+}
